@@ -1,0 +1,28 @@
+.extensionOverlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.90);
+}
+.extensionWindow {
+    position        : fixed;
+    top             : 10%;
+    left            : 50%;
+    transform       : translateX(-50%);
+    min-width           : 200px;
+    min-height          : 80px;
+    border: 5px solid rgba(0, 0, 0, 0.30);
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 60px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.extensionMsg {
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+}
